@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:finances": "cypress run --spec \"cypress/e2e/finances.cy.js\"",
+    "cy:run:finances:mobile": "cypress run --spec \"cypress/e2e/finances.cy.js\" --browser chrome --config viewportWidth=400,viewportHeight=886"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.17.0"
+  }
+}
